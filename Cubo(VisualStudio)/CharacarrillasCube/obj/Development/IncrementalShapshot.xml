@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CharacarrillasCube</Database>
+    <Server>DESKTOP-LM202E9\HIDEAKISQL</Server>
+    <ConnectionString>Data Source=DESKTOP-LM202E9\HIDEAKISQL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>l3yVpTTDJlkjKA2rAYbHAV7UQDg=20/05/2024 9:12:1120/05/2024 9:12:11</TimeStamp>
+        <ID>
+          <String>Chacarilla Express DT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>RLgePDaC16NgpRWozkOzSqlrowI=20/05/2024 9:12:2020/05/2024 9:12:19</TimeStamp>
+        <ID>
+          <String>Chacarilla Express DT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mGhqBc9eMxRhiy0MaUYU8lRIi80=20/05/2024 9:12:3020/05/2024 9:12:30</TimeStamp>
+        <ID>
+          <String>DIM CLIENTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wuSm7ETpaJdhmI3MmtmygamNGQA=20/05/2024 9:12:4020/05/2024 9:12:40</TimeStamp>
+        <ID>
+          <String>DIM EMPLEADO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fj8FPcJgRIegn1yKngZQmPuK2RI=20/05/2024 9:12:4920/05/2024 9:12:49</TimeStamp>
+        <ID>
+          <String>DIM ESTADOLAVADO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OAXBFqLp+t7G8H/rJZVHp92o6Lc=20/05/2024 9:12:5920/05/2024 9:12:59</TimeStamp>
+        <ID>
+          <String>DIM ESTADOPAGO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yA0mlthf4NOpiivzfsXNOIopKLo=20/05/2024 9:13:0820/05/2024 9:13:08</TimeStamp>
+        <ID>
+          <String>DIM PRENDA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uCmbpWUREjZZid4jUZKETcpGkik=20/05/2024 9:13:1720/05/2024 9:13:17</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QHZKa4gHSRajJGB6mQcDN7f/fQk=20/05/2024 9:13:2620/05/2024 9:13:26</TimeStamp>
+        <ID>
+          <String>DIM TIPOCOMPROBANTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iG4KUk/olyr/Dfx/aJJJnZs4RjQ=25/05/2024 16:16:1220/05/2024 9:13:341a2UKCY5yHJ7IYXAKmPc++7iOHE=25/05/2024 16:16:1220/05/2024 9:13:34</TimeStamp>
+        <ID>
+          <String>Chacarilla Express DT</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>whaKVg+0PkAg5N/fv+DKHOocSyY=20/05/2024 9:11:0620/05/2024 9:11:05</TimeStamp>
+      <ID>
+        <String>CharacarrillasCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-25T21:16:19.653333Z</LastDeployed>
+</DeploymentSnapshot>

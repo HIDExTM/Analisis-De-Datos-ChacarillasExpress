@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\Chacarilla Express DT.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM PRENDA.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM PRENDA.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOPAGO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM ESTADOPAGO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOLAVADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM ESTADOLAVADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM EMPLEADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM EMPLEADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM CLIENTE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\DIM CLIENTE.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46C6E152-FE6C-4014-AD39-F24C9508392E}|CharacarrillasCube\\CharacarrillasCube.dwproj|solutionrelative:CharacarrillasCube\\Chacarilla Express DT.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chacarilla Express DT.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.cube",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\Chacarilla Express DT.cube",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.cube [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\Chacarilla Express DT.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T21:16:13.034Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DIM TIPOCOMPROBANTE.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM TIPOCOMPROBANTE.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T05:39:18.245Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DIM TIEMPO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIEMPO.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM TIEMPO.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM TIEMPO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM TIEMPO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T05:39:02.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DIM PRENDA.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM PRENDA.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM PRENDA.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM PRENDA.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM PRENDA.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T05:38:29.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DIM ESTADOPAGO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOPAGO.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM ESTADOPAGO.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOPAGO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM ESTADOPAGO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T05:38:11.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Chacarilla Express DT.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.dsv",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\Chacarilla Express DT.dsv",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\Chacarilla Express DT.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\Chacarilla Express DT.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T05:34:30.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DIM CLIENTE.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM CLIENTE.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM CLIENTE.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM CLIENTE.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM CLIENTE.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-20T17:18:22.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DIM ESTADOLAVADO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOLAVADO.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM ESTADOLAVADO.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM ESTADOLAVADO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM ESTADOLAVADO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-20T17:18:21.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DIM EMPLEADO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM EMPLEADO.dim",
+              "RelativeDocumentMoniker": "CharacarrillasCube\\DIM EMPLEADO.dim",
+              "ToolTip": "C:\\Users\\hidet\\source\\repos\\CharacarrillasCube\\CharacarrillasCube\\DIM EMPLEADO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CharacarrillasCube\\DIM EMPLEADO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-20T17:18:16.352Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

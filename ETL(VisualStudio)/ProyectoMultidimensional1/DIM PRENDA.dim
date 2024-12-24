@@ -1,0 +1,221 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="473e0f07-aa36-44c8-a1ba-4e756c92647d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM PRENDA</ID>
+  <Name>DIM PRENDA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d7d6adc2-3d73-4944-a888-c0c6ecadb22d">
+    <DataSourceViewID>Chacarilla Express DT</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="eb72113d-5d2e-4806-8f33-91b85ca95329">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3cdb056b-3919-48a1-8ef5-fb631dde5a41">
+      <ID>Idtipoprenda</ID>
+      <Name>Idtipoprenda</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f540e31-3395-4294-aac2-efc268b2f225">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ad9ba4a-0eda-4e93-b2a3-ed6e7bb6a1d1">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>idtipoprenda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c4ab1cdc-521c-4aa6-a7d9-fd5e91b2171d">
+          <AttributeID>Descripciontipoprenda</AttributeID>
+          <Name>Descripciontipoprenda</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="038599d7-85bc-415d-a9cf-da5e8d5477cd">
+          <AttributeID>Descripcionmaterial</AttributeID>
+          <Name>Descripcionmaterial</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="50c0902a-f6d9-4252-b77f-3bad1e8643e9">
+          <AttributeID>Descripcioncolor</AttributeID>
+          <Name>Descripcioncolor</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a501d855-6705-4d04-839b-1569ab5ac404">
+          <AttributeID>Observacion</AttributeID>
+          <Name>Observacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f7c8d75-941b-4e20-8a8f-aca37ecdcf9e">
+          <AttributeID>Descripciontipolavado</AttributeID>
+          <Name>Descripciontipolavado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a980868d-0a38-4ecd-8901-97e305b0174f">
+          <AttributeID>Cantidad</AttributeID>
+          <Name>Cantidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="35758406-2c74-4f6d-b770-293ab5398619">
+          <AttributeID>Total</AttributeID>
+          <Name>Total</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="33253259-eb62-46f6-b49b-73e61a0fa401">
+      <ID>Descripciontipoprenda</ID>
+      <Name>Descripciontipoprenda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ed59fd15-520f-4e76-b0e1-fb082a667866">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be37ac9f-3b79-4b05-b8d3-c50e9cf0f150">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>descripciontipoprenda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d5ea9c39-e346-4e94-8da9-ab565105d54a">
+      <ID>Descripcionmaterial</ID>
+      <Name>Descripcionmaterial</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b6f3fe54-e6cb-4bae-982e-4fa2a7141ef5">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c258365-4f5c-41bf-ba82-24e523df78f3">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>descripcionmaterial</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e9c2306f-bec9-4ec8-a6be-23618a1c8386">
+      <ID>Descripcioncolor</ID>
+      <Name>Descripcioncolor</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8966a2b-7414-40d6-b28d-d9743a3c62cb">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39fa88d7-93c9-4a7e-a30b-7a5d82a5b53b">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>descripcioncolor</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce9c7ca1-f288-47e9-906b-97d8a525e7ef">
+      <ID>Observacion</ID>
+      <Name>Observacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5beeba3b-2c8c-4a10-a13b-178dcea14560">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="acd53bcc-8548-4d4f-b976-f4735baa5444">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>observacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f124712c-8950-4a44-ad8b-89cf4edd2f3c">
+      <ID>Descripciontipolavado</ID>
+      <Name>Descripciontipolavado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="327941e5-22b3-469a-906e-026bc53889f5">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12512264-0f29-43b6-844f-f4406886974c">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>descripciontipolavado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb292cca-d820-4d2a-890a-720b296dfbe6">
+      <ID>Cantidad</ID>
+      <Name>Cantidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2fa5e2db-876c-41aa-9438-40cc2ada5427">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5aaf63c5-d3eb-4a6c-9fb4-ed70ede30117">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>cantidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3fb9916d-e6fd-4c64-aea3-638c623f6741">
+      <ID>Total</ID>
+      <Name>Total</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1fbc1a3a-ed86-4867-a479-bb90cf701e6f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff450f97-c578-41c2-a29c-111fa8afb3d6">
+            <TableID>dbo_DIM_PRENDA</TableID>
+            <ColumnID>total</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

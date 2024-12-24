@@ -1,0 +1,358 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d8d19c4b-77ef-44f8-a241-5eb607f543f8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Chacarilla Express DT</ID>
+  <Name>Chacarilla Express DT</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="5c01cf30-924d-43e5-a304-230ff8da76e1">
+      <ID>DIM EMPLEADO</ID>
+      <Name>DIM EMPLEADO</Name>
+      <DimensionID>DIM EMPLEADO</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cc798c70-5b99-4c02-89c9-7baa6c698b4d">
+          <AttributeID>Idempleado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62ed7b44-5b3e-4a96-af88-fea769cd0830">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b81f3dc5-a4a3-4a31-b1e9-b5ace31690ac">
+          <AttributeID>Apellido</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35041773-5f8c-4352-a33e-3e55b200f889">
+          <AttributeID>Telefono</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe858c15-e1ee-42f6-ae7b-e702449772d8">
+          <AttributeID>Direccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9526ed09-980c-41bf-a335-717d85ff1b35">
+          <AttributeID>Dni</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dab81fc7-2b71-4cf5-be09-3b8f62f4dce8">
+          <AttributeID>Descripcioncargo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c9134fb7-0cfe-42b4-8cd7-d0e39c0a0253">
+      <ID>DIM ESTADOLAVADO</ID>
+      <Name>DIM ESTADOLAVADO</Name>
+      <DimensionID>DIM ESTADOLAVADO</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bc518a40-382b-41bf-9cf9-ae7aed054b3f">
+          <AttributeID>Idestadolavado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b761d90-1b38-48a7-bbda-b7b099833ef9">
+          <AttributeID>Descripcionestadoregistro</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ae3eccab-4ee6-49b2-844e-4ac26f9ee4f0">
+      <ID>DIM TIEMPO</ID>
+      <Name>DIM TIEMPO</Name>
+      <DimensionID>DIM TIEMPO</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2235bd83-d4ce-42df-8ead-1c6fe7208304">
+          <AttributeID>Idtiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91fe4add-1488-4823-bad8-397db52c5d4f">
+          <AttributeID>Anio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14adb516-447b-46be-b551-5bc977bb8bf6">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="50cc4610-5602-4c3a-b479-20360d4e7de8">
+          <AttributeID>Dia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b87bfdf8-bfb5-4255-95b4-f0dc599f4790">
+      <ID>DIM CLIENTE</ID>
+      <Name>DIM CLIENTE</Name>
+      <DimensionID>DIM CLIENTE</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="edb85ee8-8bbe-4263-9902-1ea4274652ac">
+          <AttributeID>Idcliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9801fa5-d629-434a-a1c5-193ce7717efb">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52cd6321-7b05-426d-9d1d-6d6ceffc4824">
+          <AttributeID>Apellido</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce7e5151-2909-4319-ba7c-89e8986ca0b5">
+          <AttributeID>Telefono</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="181ab67a-401e-428c-bfe3-aa126edb58f5">
+          <AttributeID>Direccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68919782-607e-42a7-bdc5-95166564cce2">
+          <AttributeID>Dni</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5fba9803-6560-4e22-9930-82dae3848b51">
+      <ID>DIM ESTADOPAGO</ID>
+      <Name>DIM ESTADOPAGO</Name>
+      <DimensionID>DIM ESTADOPAGO</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="641c7abb-6218-435f-a444-317ea48323e3">
+          <AttributeID>Idestadopago</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6eb353d2-47a0-48f6-8de9-72e971f5a0ce">
+          <AttributeID>Descripcionestadopago</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="409b4efc-c47c-482f-83fc-c2a69c5cc68a">
+      <ID>DIM PRENDA</ID>
+      <Name>DIM PRENDA</Name>
+      <DimensionID>DIM PRENDA</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c3f81cbe-a780-4dd3-aab1-6fbd818ce9e6">
+          <AttributeID>Idtipoprenda</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2be161e4-ebd9-429e-af60-f9eccd032568">
+          <AttributeID>Descripciontipoprenda</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8208d98e-d8d0-4557-bc02-820b64defb6e">
+          <AttributeID>Descripcionmaterial</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="360f7b0b-ba8b-4f08-a30f-ef95482ea563">
+          <AttributeID>Descripcioncolor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="79971174-0864-4d9c-9460-b2884276cad6">
+          <AttributeID>Observacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="108aeac9-5eff-4a9c-af37-1b032d90d9ed">
+          <AttributeID>Descripciontipolavado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="10e9961d-a94c-47ae-a497-c751e0de0bd3">
+          <AttributeID>Cantidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="15fc6935-bc0e-4361-a6cb-76ef88eba500">
+          <AttributeID>Total</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ec517f55-635c-46b0-8004-eae9dca88648">
+      <ID>DIM TIPOCOMPROBANTE</ID>
+      <Name>DIM TIPOCOMPROBANTE</Name>
+      <DimensionID>DIM TIPOCOMPROBANTE</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3772eba5-938b-4ec6-b8ec-23ab3282e3d2">
+          <AttributeID>Idtipocomprobante</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1579ed66-116a-4e1f-832d-511cae031302">
+          <AttributeID>Descripciontipocomprobante</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8b5d6426-116a-4fb9-9540-ea49cf07fed3">
+      <ID>Hecho Lavado</ID>
+      <Name>Hecho Lavado</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="167a8d18-ac19-4924-84e0-52c997527d07">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <Source dwd:design-time-name="1f56a5d7-cf5e-4233-a3d9-73f6643501b1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="22a3f0ef-2714-4dcc-bfef-de25d2040f1a">
+              <TableID>dbo_Hecho_Lavado</TableID>
+              <ColumnID>total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9c7fc19a-22ec-4aa5-b9a7-4d5e07fd2198">
+          <ID>Recuento Hecho Lavado</ID>
+          <Name>Recuento Hecho Lavado</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="479f54ed-6105-428f-967e-37727562d4e0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="0738e386-1581-4b85-bcf6-0d05c111b159">
+              <TableID>dbo_Hecho_Lavado</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cfcb27fa-4002-442f-9f5d-ca82d0abcffa">
+          <CubeDimensionID>DIM EMPLEADO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9dca8de6-e959-41b0-bf23-95649d52e842">
+              <AttributeID>Idempleado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bda2c446-d4aa-4cae-8505-eec56bf51bc2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ee8e047-a232-4f4d-b68e-82fc414ce6ca">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idempleado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2fa9e599-b6ac-43bb-8123-6e380d460009">
+          <CubeDimensionID>DIM ESTADOLAVADO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="26025351-299b-476f-840c-e67117fd399b">
+              <AttributeID>Idestadolavado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4d56f84d-8adb-4c5f-a6bb-308c2f0a93a8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="32d41cf2-fd87-4f6a-999a-cd1c6f01f197">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idestadolavado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d2ea3d0e-b4fa-4e7d-ba7f-30bf6abeccc0">
+          <CubeDimensionID>DIM TIEMPO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="68c09e4e-57e1-4bba-b509-6e5ffd4d74d5">
+              <AttributeID>Idtiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c0cdaf9e-2a00-42f2-a549-8dd0b26acae8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aed0ba9e-a8aa-4dfc-81ea-d542467418b5">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idtiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="68895e29-bed1-4c40-afd3-e4155f2e4083">
+          <CubeDimensionID>DIM CLIENTE</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="46d5adbd-11f5-4995-9675-8e17238d7e12">
+              <AttributeID>Idcliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b71e3596-04cd-4262-860c-36d471569a10">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="194a0c62-f420-4b7f-bf11-de08eb6fb69b">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idcliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ea0e40d0-14c1-443f-8f57-a7c73ff38e1c">
+          <CubeDimensionID>DIM ESTADOPAGO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3d25ef7a-708c-4abe-a46c-cc5276505a7c">
+              <AttributeID>Idestadopago</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d06b26ca-27b1-4648-bed7-6eaab2d1a3b0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="579c8bf1-32ab-44f5-8499-0e3071562de8">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idestadopago</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6f237155-292a-4e5e-af6e-65e29c88a86b">
+          <CubeDimensionID>DIM PRENDA</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ac6c6f15-02ee-45d5-9591-4791c6858c2e">
+              <AttributeID>Idtipoprenda</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5cf96bb3-8248-4b8a-9cc3-0ecf790e08c7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="303225ff-60a8-40e9-9229-e87c57615c42">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idtipoprenda</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5a1980c9-b1ab-4575-add5-d04da568a698">
+          <CubeDimensionID>DIM TIPOCOMPROBANTE</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="06a9d28c-af77-42fa-8da3-fb5091149bcc">
+              <AttributeID>Idtipocomprobante</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dabec638-8493-45cb-aac4-92730a1748eb">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fbfccb73-d2bf-4590-a57b-c2ab1b461cfb">
+                    <TableID>dbo_Hecho_Lavado</TableID>
+                    <ColumnID>idtipocomprobante</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="455bdfeb-2170-4690-bbd2-34a58b01d22c">
+    <DataSourceViewID>Chacarilla Express DT</DataSourceViewID>
+  </Source>
+</Cube>
